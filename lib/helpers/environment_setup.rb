@@ -1,9 +1,9 @@
 module EnvironmentSetup
-  def driver_setup browser
 
+  def driver_setup browser
     Capybara.register_driver browser do |app|
       Capybara::Selenium::Driver.new(app,:browser => browser)
-   end
+    end
   end
 
   def capybara_default_setup 
