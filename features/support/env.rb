@@ -5,7 +5,7 @@ require 'site_prism'
 require 'active_support'
 include EnvironmentSetup
 
-ActiveSupport::Dependencies.autoload_paths << File.expand_path(File.join(Dir.pwd, 'lib'))
+ActiveSupport::Dependencies.autoload_paths << File.expand_path(File.join(Dir.pwd, 'lib/pages'))
 
 driver_setup :chrome
 
