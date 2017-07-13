@@ -5,4 +5,4 @@ source "https://rubygems.org"
 gem 'capybara'
 gem 'cucumber'
 gem 'site_prism'
-gem 'activesupport'
+gem 'require_all'
