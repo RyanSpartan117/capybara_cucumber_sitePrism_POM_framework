@@ -40,3 +40,7 @@ Given("I sign in") do
 	<Code that links to Page file>
 end
 ```
+
+### The debugging branch
+
+This repo has been used for teaching and demostrating automated tests. So I have added a debugging repo that purposefully has a broken test in it for people looking to practice debugging as well as their automation skills/knowledge.
