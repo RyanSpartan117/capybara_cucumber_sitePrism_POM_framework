@@ -40,6 +40,15 @@ Given("I sign in") do
 	<Code that links to Page file>
 end
 ```
+### Running a test
+
+Run these commands in order, and you should be able to run a test with cucumber!  
+(From the repository root):  
+
+* `gem install bundler` - we use bundler to install the other gems
+* `bundle install`
+* `cucumber` - cucumber will run every test in the pack. For demostration purposes, there is only 1.
+
 
 ### The debugging branch
 
