@@ -1,6 +1,6 @@
 Given("I am on the automation workshop page") do
 	visit('https://topupmockserver.azurewebsites.net/automationWorkshop')
-	expect(page.title).to eql('Autonation Workshop Practice')
+	expect(page.title).to eql('Automation Workshop Practice Website')
 end
 
 When("I click on the big button") do
