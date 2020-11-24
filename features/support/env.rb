@@ -22,10 +22,10 @@ if OS.windows?
 	Webdrivers::Chromedriver.required_version = '78.0.3904.70'
 end
 
-Capybara.register_driver :custom_chrome_headless do |app|
+Capybara.register_driver :chrome_headless do |app|
 	browser_options = ::Selenium::WebDriver::Chrome::Options.new()
-	browser_options.args << '--window-size=1920,1080'
-	browser_options.timeout << 5
+	browser_options.args << '--headless'
+	# browser_options.args << '--diable-gpu'
 	Capybara::Selenium::Driver.new(app,
 		browser: :chrome,
 		options: browser_options
